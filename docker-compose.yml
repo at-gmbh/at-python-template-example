@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  example-project:
+    image: 'at/example-project:latest'
+    build:
+      context: .
+      args:
+        PYTHON_IMAGE_TAG: 3.7-stretch
+    command: '--help'
+    tty: true

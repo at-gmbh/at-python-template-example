@@ -1,0 +1,5 @@
+# log configuration for example_project
+logging:
+  enabled: true
+  format: "%(asctime)s.%(msecs)03d [%(levelname)s]: %(message)s"
+  level: "INFO"
